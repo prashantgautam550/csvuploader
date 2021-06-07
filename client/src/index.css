@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+}
+
+
+@media (max-width : 991px){
+  .login-container {
+    
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .login-container > .row{
+    height: 100%;
+  }
+  .login-form-1{
+    height: 100% !important;
+    box-shadow: none !important;
+  }
+  .login-form-2{
+    height: 100% !important;
+    border-radius: 40px 40px 0 0;
+  }
+}
+@media (min-width : 992px){
+
+}

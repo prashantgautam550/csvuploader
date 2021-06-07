@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#943671">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#943671">
+    <meta name="apple-mobile-web-app-title" content="CSV Loader Timesheet">
+    <meta name="description" content="CSV Loader Timesheet">
+    <meta name="theme-color" content="#943671" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+   <!--favicon icon and app icons-->
+   <link rel="shortcut icon" href="images/icons/favicon144x144.ico" type="image/x-icon">
+   <link rel="icon" type="image/x-icon" sizes="32x32" href="images/icons/favicon32x32.ico.ico">
+   <link rel="apple-touch-icon" type="image/x-icon" sizes="57x57" href="images/icons/favicon57x57.ico">
+   <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="images/icons/favicon114x114.ico">
+   <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="images/icons/favicon72x72.ico">
+   <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="images/icons/favicon144x144.ico">
+   <link rel="apple-touch-icon" type="image/x-icon" sizes="60x60" href="images/icons/favicon60x60.ico">
+   <link rel="apple-touch-icon" type="image/x-icon" sizes="120x120" href="images/icons/favicon120x120.ico">
+   <link rel="apple-touch-icon" type="image/x-icon" sizes="76x76" href="images/icons/favicon76x76.ico">
+   <link rel="apple-touch-icon" type="image/x-icon" sizes="152x152" href="images/icons/favicon152x152.ico">
+   <link rel="apple-touch-icon" type="image/x-icon" sizes="192x192" href="images/icons/favicon192x192.ico">
+   <link rel="icon" type="images/x-icon" sizes="196x196" href="images/icons/favicon196x196.ico">
+   <link rel="icon" type="images/x-icon" sizes="160x160" href="images/icons/favicon160x160.ico">
+   <link rel="icon" type="images/x-icon" sizes="96x96" href="images/icons/favicon96x96.ico">
+   <link rel="icon" type="images/x-icon" sizes="32x32" href="images/icons/favicon32x32.ico">
+   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="select2/select2.min.css" rel="stylesheet" media="all"/>
+    <title>CSV Loader</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root">
+      
+    </div>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCNGoUSetoAhG5c5VMeYcQi5_foWGJrE1I",
+    authDomain: "CSV Loader-timesheet.firebaseapp.com",
+    databaseURL: "https://CSV Loader-timesheet.firebaseio.com",
+    projectId: "CSV Loader-timesheet",
+    storageBucket: "CSV Loader-timesheet.appspot.com",
+    messagingSenderId: "1043644713696",
+    appId: "1:1043644713696:web:5c4cfec560eca9a2b01e85",
+    measurementId: "G-633V1S8N1D"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+    <script>
+    
+    
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('sw.js').then(function(registration) {
+            console.log('Worker registration successful', registration.scope);
+          }, function(err) {
+            console.log('Worker registration failed', err);
+          })
+         .catch(function(err) {
+            console.log(err);
+          });
+        });
+      } else {
+        console.log('Service Worker is not supported by browser.');
+      }
+    </script>
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/locales/bootstrap-datepicker.es.min.js"></script>
+     <script type="text/javascript" src="select2/select2.min.js"></script>
+  </body>
+</html>
